@@ -1,0 +1,133 @@
+﻿
+<local:MyCard Title="|===\===☆欢迎☆===/===|" Margin="0,0,0,20" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15" >
+            <TextBlock Margin="0,0,0,4" Foreground="#117204" FontSize="20" HorizontalAlignment='Left'
+                   Text="你好！" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Image Height="50" HorizontalAlignment="Right" Source="https://tse2-mm.cn.bing.net/th/id/OIP-C.Hv_BFswzxmtSBE2QvFMm9AHaHa" Margin="0,0,4,0"/>
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="资源网站" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="0,40,0,0" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="50" HorizontalAlignment="Left" Margin="0,0,0,0" Source="https://www.mcbbs.net/template/mcbbs/image/logo_sc.png" />
+                    <local:MyButton Width="140" Height="35" HorizontalAlignment="Center" Padding="0,0,0,0" Text="mcmod" EventType="打开网页" EventData="https://www.mcmod.cn/"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="50" HorizontalAlignment="Left" Margin="0,0,0,0" Source="https://www.mcmod.cn/images/logo.gif" />
+                    <local:MyButton Width="140" Height="35" HorizontalAlignment="Center" Padding="0,0,0,0" Text="mcbbs" EventType="打开网页" EventData="https://www.mcbbs.net/"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="50" HorizontalAlignment="Left" Margin="0,0,0,0" Source="https://www.mcnav.net/wp-content/uploads/2021/07/1627453946-planetminecraft_logo.png" />
+                    <local:MyButton Width="140" Height="35" HorizontalAlignment="Center" Padding="0,0,0,0" Text="PlanetMinecraft" EventType="打开网页" EventData="https://www.planetminecraft.com/"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="50" HorizontalAlignment="Left" Margin="0,0,0,0" Source="https://ts1.cn.mm.bing.net/th?id=ODLS.1824ab1a-0b1c-44f5-b2ad-45bd4e3d31ba" />
+                    <local:MyButton Width="140" Height="35" HorizontalAlignment="Center" Padding="0,0,0,0" Text="mcnav" EventType="打开网页" EventData="https://www.mcnav.net/"/>
+                </StackPanel>
+            </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="联机相关" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="内网穿透安装" EventType="打开文件" EventData="SakuraLauncher.exe" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" 
+                   Text="内网穿透网站" EventType="打开网页" EventData="https://www.natfrp.com/?page=register" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0" > 
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="皮肤" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                Text="皮肤下载" EventType="打开网页" EventData="https://namemc.com/" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+    
+
+<local:MyCard Title="基岩版" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开基岩版" EventType="打开文件" EventData="minecraft://" ToolTip="点击打开 Minecraft基岩版！" />
+        <local:MyTextButton Margin="0,8,0,0" HorizontalAlignment="Center"
+                   Text="安装基岩版" EventType="打开网页" EventData="https://mc.minebbs.com/#/windows" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="网易版" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开网易版" EventType="打开文件" EventData="mc\MCLauncher\WPFLauncher.exe" ToolTip="点击打开 Minecraft网易版！" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="网页版" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开网页版" EventType="打开网页" EventData="https://imc.cab/" ToolTip="各种Minecraft网页版！" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Java服务器" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="服务器" EventType="打开文件" EventData="server/spigot-1.20.1.jar" ToolTip="多点几次就开了，本地默认端口25565" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="基岩版服务器" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="服务器" EventType="打开文件" EventData="BE_server/bedrock_server.exe" ToolTip="本地默认端口19132" />
+        <local:MyTextButton Margin="0,8,0,0" HorizontalAlignment="Center"
+                   Text="mc玩腻了？安装steam试试吧!" EventType="打开文件" EventData="byd/steam.exe" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="杂项" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开哔哩哔哩" EventType="打开文件" EventData="bilibili/哔哩哔哩.exe" ToolTip="太累了可以看会哔哩哔哩放松" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="安装火绒安全" EventType="打开文件" EventData="byd/火绒安全.exe" ToolTip="广告弹窗太多？装个火绒吧" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="steam加速器" EventType="打开文件" EventData="Steam++/Steam++.exe" ToolTip="没有免费的steam加速器？" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="win10安装" EventType="打开文件" EventData="win10/setup.exe" ToolTip="没安装win10的可以点这个安装啦" />
+        <local:MyTextButton Margin="0,8,0,0" HorizontalAlignment="Center"
+                   Text="win7安装不了？点我下载前置" EventType="打开文件" EventData="byd/win7.msu" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="人工帮助？" CanSwap="True" Margin="0,0,10,2" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+            <TextBlock Margin="0,0,0,4" Foreground="#117204" FontSize="20" HorizontalAlignment='Left'
+                   Text="法定节假日、暑假寒假联系" />
+<TextBlock Margin="0,0,0,4" Foreground="#117204" FontSize="20" HorizontalAlignment='Left'
+                   Text="QQ：3228582507" />
+            <TextBlock Margin="0,0,0,4" Foreground="#117204" FontSize="20" HorizontalAlignment='Left'
+                   Text="获得帮助（忙于学业，不能第一时间帮）" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Image Height="50" HorizontalAlignment="Right" Source="https://tse2-mm.cn.bing.net/th/id/OIP-C.Hv_BFswzxmtSBE2QvFMm9AHaHa" Margin="0,0,4,0"/>
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="远程帮助" EventType="打开文件" EventData="byd/ToDesk_Lite.exe" ToolTip="远程帮助解决问题" />
+        </StackPanel>
+        <local:MyTextButton Margin="0,8,0,0" HorizontalAlignment="Center"
+                   Text="加了QQ没有回复？试试《原神》吧" EventType="打开文件" EventData="byd/玩原神玩的.exe" />
+    </StackPanel>
+</local:MyCard>
